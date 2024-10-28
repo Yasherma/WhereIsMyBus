@@ -1,0 +1,327 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(laptop.png);
+	background-size: contain;
+	font-style: italic;
+	height: 4008px;
+}
+#Y{
+	background-color: black;
+	position: fixed;
+	position: sticky;
+	color: #9932CC;
+	cursor: pointer;
+	font-size: 40px;
+
+
+	/*border:solid #CD5c5c 2px;*/
+}
+h2{
+	color: purple;
+}
+
+a{
+	position: sticky;
+	text-decoration: none;
+	font-size: 4vmin;
+	text-decoration: none;
+	margin-right: -500px;
+	margin-left: 500px;
+}
+#new{
+	font-size: 25px;
+	color: #9932CC;
+	margin-left: 30px;
+}
+#Name{
+	font-size: 80px;
+	color: white;
+	margin-left: 100px;
+}
+a:hover{
+	height: 30px;
+	width: 40px;
+	/*border:solid black 1px;*/
+	color: #9932CC ;
+	/*background-color:#CD5c5c;*/
+
+
+	/*border:solid white 2px;*/
+
+}
+.Bor:hover{background-color: black;
+	color: purple;
+}
+.Bor{
+	height: 40px;
+	width: 80px;
+
+	/*border:solid white 1px;*/
+	background-color: #9932CC;
+	margin-left: 80px;
+	cursor: pointer;
+
+}
+.But{
+	color: white;
+	margin-left: 10px;
+	
+}
+/*#New{
+	height: 650px;
+	width: 1500px;
+
+	border:solid #C0C0C0 3px;
+}*/
+#About{
+	margin-left: 0px;
+}
+p{
+	color: #9932CC;
+	margin-top: 100px;
+	margin-left: 900px;
+	text-align: left;
+	font-size: 23px;
+}
+#imz{
+	height: 400px;
+	width: 500px;
+	margin-left: 250px;
+	margin-top: -300px;
+	border-radius: 50%;
+	background-image: url(yash.png);
+	background-size: contain;
+	/*border:solid orange 3px;*/
+}
+b{
+	color: white;
+}
+p:hover{
+	color:white;
+}
+h3{
+	color:  #9932CC;
+	font-size: 6vmin;
+	
+}
+u{
+	color:  #7FFF00;
+}
+#Skills{
+	color: purple;
+	font-size: 6vmin;
+	margin-left: 0px;
+}
+#HTML{
+	height: 60px;
+	width: 100px;
+	font-size: 5vmin;
+	/*border:solid white 1px;*/
+	background-image:  url(html.png);
+	background-size: cover;
+	margin-left: 100px;
+	cursor: pointer;
+
+}
+#CSS{
+	height: 60px;
+	width: 100px;
+	font-size: 5vmin;
+	/*border:solid white 1px;*/
+	background-image: url(css.png);
+	background-size: cover;
+	margin-left: 150px;
+	cursor: pointer;
+
+}
+#JS{
+	height: 60px;
+	width: 160px;
+	font-size: 5vmin;
+	/*border:solid white 1px;*/
+	background-image: url(js.png);
+	background-size: cover;
+	margin-left: 200px;
+	cursor: pointer;
+
+}
+#Py{
+	height: 70px;
+	width: 150px;
+	font-size: 5vmin;
+	/*border:solid white 1px;*/
+	background-image: url(python.png);
+	background-size: cover;
+	margin-left: 290px;
+	cursor: pointer;
+
+}
+#Up{
+	font-size: 5vmin;
+	/*border:solid white 1px;*/
+	background-image: url(errow.png);
+	background-size: cover;
+	margin-left: 290px;
+	cursor: pointer;
+	border-radius: 50%;
+	color: black;
+
+	margin-left: 1200px;
+}
+
+
+/*#App{
+/*#App{
+	height: 600px;
+	width: 1490px;
+	display: inline-block;
+	background-image: url(100006.png);
+	background-size: contain;
+	border:solid white 2px;
+}*/
+#Project{
+	font-size: 6vmin;
+	margin-left: 0px;
+	color: purple;
+
+}
+#Bus{
+	margin-left: 50px;
+
+}
+#Sita{
+	margin-left: 580px;
+	
+}
+#Where{
+	margin-left: 650px;
+}
+#So{height: 200px;
+	width: 200px;
+	border-radius: 20%;
+
+}
+#tac{height: 200px;
+	width: 200px;
+	border-radius: 20%;
+
+
+}
+#paper{
+	height: 200px;
+	width: 200px;
+	margin-left: 70px;
+	border-radius: 50%;
+
+}
+#tic{
+	height: 200px;
+	width: 200px;
+	margin-left: 650px;
+	border-radius: 50%;
+	color: purple;
+
+}
+
+
+
+#Css{
+	border-radius: 50%;
+}
+#Ama{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+
+	
+}
+#Arti{
+	margin-left: 600px;
+	background-size: contain;
+}
+#At{
+	height: 200px;
+	width: 200px;
+	border-radius: 20%;}
+
+#Css:hover{
+	transform: rotate(360deg);
+	transition: all 3s ease-in;
+}
+#Ama:hover{
+	transform: rotate(360deg);
+	transition: all 3s ease-in;
+}
+/*@keyframes orbit{
+	to{
+		transform: rotate(360deg);
+	}
+}*/
+header{
+	color: white;
+	margin-left: 20px;
+}
+
+#Contact{
+	color: purple;
+	font-size: 6vmin;
+	margin-left: 0px;
+}
+#Number:hover{
+	background-color: black;
+	color: #ADFF2F;
+}
+#Number{
+	height: 60px;
+	width:320px;
+	cursor: pointer;
+	font-size: 5vmin;
+	/*border:solid white 1px;*/
+	background-color: #008080;
+	margin-left: 150px;
+
+}
+#Email:hover{
+	background-color: black;
+	color: #ADFF2F;
+}
+#Email{
+	height: 60px;
+	width: 500px;
+	cursor: pointer;
+	font-size: 5vmin;
+	border:solid white 1px;
+	background-color: #008080;
+	margin-left: 150px;
+
+}
+#LinkedIn:hover{
+	background-color: black;
+	color: #ADFF2F;
+}
+#LinkedIn{
+	height: 60px;
+	width: 500px;
+	cursor: pointer;
+	font-size: 5vmin;
+	border:solid white 1px;
+	background-color: #008080;
+	margin-left: 150px;
+
+}
+#HackerRank:hover{
+	background-color: black;
+	color: #ADFF2F;
+}
+#HackerRank{
+	height: 60px;
+	width: 500px;
+	font-size: 5vmin;
+	border:solid white 1px;
+	background-color: #008080;
+	margin-left: 150px;
+
+}

@@ -1,0 +1,59 @@
+ *{
+ 	padding: 0;
+ 	margin: 0;
+ }
+ body{
+ 	background-image: url(10002.png);
+ 	background-size: cover ;
+ 	height: 700px;
+ 	background-position: center;
+ 	font-family: Algerian, sans-serif;
+ }
+ h1{
+	background-color: #008b8b;
+	/*text-align: center;*/
+	border: 2px solid black;
+}
+label{
+	background-color: #afeeee;
+	border: 2px solid black;
+}
+input{
+	background-color: black;
+	color: #d8bfd8;
+	border: 2px solid #d8bfd8;
+}
+#Login{
+	border-radius: 50%;
+	border-style: double;
+	border-color: aqua;
+	background-color: #green;
+
+
+}
+#C{margin-left: 1000px;
+	background-color: #008b8b;
+    border:2px solid #008b8b;
+    color:black;
+
+
+
+}
+a{
+	background-color: black;
+	text-decoration: none;
+	border: 2px solid #d8bfd8;
+	color: #d8bfd8;
+}
+div{
+	height: 200px;
+	width: 600px;
+	background-image: url(10004.png);
+	/*opacity: 0.5;*/
+
+	border: 2px solid transparent;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 100px;
+	border-radius: 10%;
+}

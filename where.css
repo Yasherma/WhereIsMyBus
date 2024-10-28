@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Algerian, sans-serif;
+
+
+
+}
+h1{
+	background-color: black;
+	color: white;
+
+	border: 2px solid gray;
+
+
+}
+body{
+	background-image: url(12.png);
+	background-size: cover;
+	background-size:cover;
+}
+a{
+	text-decoration: none;
+	font-size: 24px;
+}
+
+
+a{
+	margin-left: 750px;
+}
+div{
+	height: 300px;
+	width: 400px;
+	background-color: white;
+	border : 2px solid white;
+	margin-left: 100px;
+	margin-top: 50px;
+	padding-right: 100px;
+}
+button{
+	background-color: green;
+	color: white;
+	margin-left: 90px;
+	height: 30px;
+	width: 250px;
+}
+#Y{
+	margin-left: 90px;
+	height: 30px;
+	width: 250px;
+}
+#L{
+	margin-left: 90px;
+	height: 30px;
+	width: 250px;
+}
+
+.file{
+	background-color: skyblue;
+	height: 200px;
+	width: 400px;
+	margin-left: 550px;
+}

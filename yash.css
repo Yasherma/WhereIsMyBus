@@ -1,0 +1,80 @@
+*{
+padding: 0;
+margin: 0;
+}
+h1{
+	color: #90EE90;
+
+	/*background-color: #008b8b;*/
+	/*text-align: center;*/
+	/*border: 2px solid black;*/
+}
+body{
+	background-image: url(10002.png);
+	background-size: cover;
+	font-family: Algerian, sans-serif;
+}
+/*#Y{
+	height: 150px;
+	width:150px;
+	border-radius: 20%;
+	background-image: url(admin.png);
+	background-size: cover;
+	border: 2px solid black;
+	margin-left: 30px; 
+}*/
+.dropdown2{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.dropdown1{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+/*#V{
+	height: 150px;
+	width:150px; 
+	background-image: url(admin.png);
+	background-size: cover;
+	border-radius: 20%;
+	border: 2px solid black;
+	display: inline-block;
+	margin-left: 30px;
+}*/
+#T{font-size: 25px;
+	margin-left: 500px;
+	color: #90ee90;
+
+}
+#P{
+	font-size: 25px;
+	color: black;
+	/*margin-left: 10px;*/
+}
+
+a{
+	text-decoration: none;
+	color: #00008b;
+	margin-left: 20px;
+	margin-left: 10px;
+	font-size: 2em;
+	margin-right: 150px;
+}
+#Login{
+	border-radius: 50%;
+	border-style: double;
+	border-color: black;
+	background-color: #87ceeb;
+
+}
+a:hover{
+	 background-color:tan ;
+}
+footer{
+	background-color: #ffdab9;
+	border: 2px solid black;
+	padding: 4px;
+	/*position: fixed;*/
+	width: 100%;
+
+}
