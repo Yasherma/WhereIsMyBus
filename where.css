@@ -1,10 +1,14 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: Algerian, sans-serif;
+	/* font-family: Algerian, sans-serif; */
 
 
 
+}
+body{
+	background-image: url(bus1.jpg);
+	background-size: cover;
 }
 h1{
 	background-color: black;
@@ -14,25 +18,11 @@ h1{
 
 
 }
-body{
-	background-image: url(12.png);
-	background-size: cover;
-	background-size:cover;
-}
-a{
-	text-decoration: none;
-	font-size: 24px;
-}
 
 
-a{
-	margin-left: 750px;
-}
 div{
 	height: 300px;
 	width: 400px;
-	background-color: white;
-	border : 2px solid white;
 	margin-left: 100px;
 	margin-top: 50px;
 	padding-right: 100px;
@@ -40,24 +30,58 @@ div{
 button{
 	background-color: green;
 	color: white;
-	margin-left: 90px;
-	height: 30px;
+	margin-left:5px;
+	height: 28px;
 	width: 250px;
 }
-#Y{
-	margin-left: 90px;
-	height: 30px;
-	width: 250px;
+/*  */
+#myDIV{
+	background-color:green;
+	margin-left: 20px;
+	height:500px;
+	width: 500px;
+	
+	
+	
 }
-#L{
-	margin-left: 90px;
-	height: 30px;
-	width: 250px;
+/*  */
+#box{
+	height: 160px;
+	width: 160px;
+	/* background-image: url(bus.jpg); */
+	margin-left: 80px;
+	border-radius: 20%;
+	border: black 2px solid;
 }
 
-.file{
-	background-color: skyblue;
-	height: 200px;
-	width: 400px;
-	margin-left: 550px;
+#box1{
+	height: 300px;
+	width:300px;
+	background-image: url(bus2.jpg);
+	border-radius: 20%;
+	border: 2px solid rgba(14, 13, 13, 0.845);
+}
+#search{
+	margin-left: 5px;
+	margin-top: 10px;
+	width: 250px;
+	
+	
+}
+/*  */
+#results {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 10px;
+  }
+#searchInput{
+	margin-left: 8px;
+	height: 25px;
+	width: 240px;
+}
+#results{
+	margin-left: 500px;
+	color: white;
+	background-image: url(bus2.jpg);
+	border: 2px solid black;
 }

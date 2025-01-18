@@ -1,64 +1,33 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>where is bus</title>
-	<link rel="stylesheet" type="text/css" href="where.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where is My Bus</title>
+    <link rel="stylesheet" type="text/css" href="where.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-<h1>Where is My Bus
-<a onclick="myfun()">Account</a>
- <select>
-   	<option >select State</option>
-   	<option>Up </option>
-   	<option>Uk</option>
-   	<option>Bihar</option>
-   	<option>Maharashtra</option>
-   	<option>Mp</option>
-   	<option>Hariyana</option>
-   </select>
- 
-</h1>
 
-<div><br>
+    <h1>Where is My Bus</h1><br>
+    
+    <div id="box1">
+        <div id="box"><br><br>
+                         
+                <input type="search" name="q" id="searchInput" placeholder="Search..."><br><br>
+                <button id="btn" onclick="searchData()">Search</button><br><br><br><br><br>
+    
+                
+                <!-- Div to show results -->
+                <div id="results"></div>
+              
+        </div>
+    </div>
 
-<!-- <input type="text" placeholder="| From Station " required="" name="">
- --><select id="Y">
-   <option >Where Station</option>
-      <option id="CPR">CPR  Chandpur  </option>
-      <option id="BIJ"> BIJ Bijnor</option>
-      <option id="GZB"> GZB Ghaziabad</option>
-      <option id="MOZ">MOZ  Muzzafanghar</option>
-      <option id="DIL">DLI Delhi</option>
-      <option id="NDLS">NDLS New delhi</option>
-</select>
- <br><br>
-<select id="L">
-   <option>To Station</option>
-      <option id="CR">CPR Chandpur </option>
-      <option id="BI">BIJ Bijnor</option>
-      <option id="Gz">GZA Ghaziabad</option>
-      <option id="Mof">MOZ Muzzafanghar</option>
-      <option id="Di"> DLI Delhi</option>
-      <option id="ND">NDLI New delhi</option>
-</select>
-<!-- <input type="text" placeholder="| To Station  " required="" name="">
- --><br><br>
-<button  class="Find">find out</button>
-<br><br>
-<form action="#Route">
-  <label  style="margin-left: 30px;" for="gsearch">Search:</label>
-  <input type="search" id="gsearch" name="gsearch">
-  <input  id="P"type="submit">
-  <br><br>
-  <form action="https://google.com">
-  <section id="Route">
-  <div class="file">Route - stops</div></section>
-</form>
-</div>
-<form><br><br>
-  <script src="where.js">
-   
-  </script>
-   </body>
-</head>
+    <br><br><br>
+    
+    
+    <script src="where.js"></script>
+
+</body>
+</html>
